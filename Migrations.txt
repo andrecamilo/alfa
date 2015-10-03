@@ -1,0 +1,25 @@
+MIGRATIONS 
+
+    add-migration initial
+
+	Get-Help  Update-Database -detailed
+	enable-migrations
+	add-migrations
+	update-database
+	get-migrations
+
+	Enable-Migrations -EnableAutomaticMigrations
+	Enable-Migrations -Auto
+
+
+Add-Migrations
+Update-DataBase
+Add-Migrations “nome_migrations” – cria um alteração no banco de dados, onde o “nome_migrations” é o nome que você irá dar para a atualização;
+Update-DataBase – aplica as alterações no banco de dados;
+Update-DataBase – script – gera um script com os comandos SQL para serem executados no banco de dados.
+
+
+
+
+referencias:
+	https://msdn.microsoft.com/pt-br/library/jj856238.aspx

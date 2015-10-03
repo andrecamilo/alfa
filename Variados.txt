@@ -1,0 +1,21 @@
+OUTROS COMANDOS
+    PM> 
+	Get-Package
+	Get-Package -updates	
+	Get-Package -ListAvailable
+
+	Get-Package -ListAvailable -Filter elmah (the name of the package) 
+	Get-Package -Filter Logging -ListAvailable (a keyword in the package description). 	
+
+	Get-Help {nome do comando} – examples
+		O comando get-help utilizando o parâmetro -examples retorna exemplos de aplicações sobre o comando Migration desejado.
+
+	Get-Help {nome do comando} -detailed
+		Já o parâmetro -detailed retorna a descrição do comando, uma sinopse e exemplos de aplicação, bem como os parâmetros e suas descrições.
+
+	Get-Help {nome do comando} -full
+		O parâmetro -full retorna tudo o que o parâmetro -detailed retorna, mais informações técnicas sobre os parâmetros do comando.
+
+
+referencias:
+	http://www.jrobertoaraujo.net/2015/04/09/novos-comandos-code-first-migration/

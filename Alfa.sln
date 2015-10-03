@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivos", "Arquivos", "{20EB77FA-9601-4718-BE19-92338CB0C017}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comandos", "Comandos", "{7AB29212-4EB8-43BC-AD6A-9AEF38676EEC}"
+	ProjectSection(SolutionItems) = preProject
+		Aplicados.txt = Aplicados.txt
+		Migrations.txt = Migrations.txt
+		Variados.txt = Variados.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teste", "Teste", "{5D186973-2064-42AE-ADC7-C35C9973AA75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banco", "Banco", "{EBF2AE74-6208-48E5-B1EA-1BDFE551C274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Domain", "Alfa.Domain\Alfa.Domain.csproj", "{0E17705B-0A1C-4844-B6DC-A30943F3CF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.App", "Alfa.App\Alfa.App.csproj", "{0A89191B-ADA4-4257-9F0E-C3A67B9C95D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Infra.Repository", "Alfa.Data\Alfa.Infra.Repository.csproj", "{AD3C1116-F4F6-4F9C-BDD0-133BACB3C421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Infra", "Alfa.Infra\Alfa.Infra.csproj", "{7598E2A5-8C7E-45EB-B886-5FC096D2486E}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Alfa.Banco", "Alfa.Banco\Alfa.Banco.sqlproj", "{EDB509F4-78BE-4039-8D9B-DA082AC13051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Web", "Alfa.Web\Alfa.Web.csproj", "{1C2E9B59-9DCA-455F-9712-358161A0452B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Infra.IoC", "Alfa.Infra.IoC\Alfa.Infra.IoC.csproj", "{31E1C736-AEF5-4914-BA98-7D266273FAB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E17705B-0A1C-4844-B6DC-A30943F3CF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E17705B-0A1C-4844-B6DC-A30943F3CF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E17705B-0A1C-4844-B6DC-A30943F3CF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E17705B-0A1C-4844-B6DC-A30943F3CF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A89191B-ADA4-4257-9F0E-C3A67B9C95D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A89191B-ADA4-4257-9F0E-C3A67B9C95D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A89191B-ADA4-4257-9F0E-C3A67B9C95D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A89191B-ADA4-4257-9F0E-C3A67B9C95D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3C1116-F4F6-4F9C-BDD0-133BACB3C421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3C1116-F4F6-4F9C-BDD0-133BACB3C421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3C1116-F4F6-4F9C-BDD0-133BACB3C421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3C1116-F4F6-4F9C-BDD0-133BACB3C421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7598E2A5-8C7E-45EB-B886-5FC096D2486E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7598E2A5-8C7E-45EB-B886-5FC096D2486E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7598E2A5-8C7E-45EB-B886-5FC096D2486E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7598E2A5-8C7E-45EB-B886-5FC096D2486E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB509F4-78BE-4039-8D9B-DA082AC13051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB509F4-78BE-4039-8D9B-DA082AC13051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB509F4-78BE-4039-8D9B-DA082AC13051}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EDB509F4-78BE-4039-8D9B-DA082AC13051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB509F4-78BE-4039-8D9B-DA082AC13051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB509F4-78BE-4039-8D9B-DA082AC13051}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1C2E9B59-9DCA-455F-9712-358161A0452B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2E9B59-9DCA-455F-9712-358161A0452B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2E9B59-9DCA-455F-9712-358161A0452B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2E9B59-9DCA-455F-9712-358161A0452B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AB29212-4EB8-43BC-AD6A-9AEF38676EEC} = {20EB77FA-9601-4718-BE19-92338CB0C017}
+		{EDB509F4-78BE-4039-8D9B-DA082AC13051} = {EBF2AE74-6208-48E5-B1EA-1BDFE551C274}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sdac.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Alfa.Domain\\Alfa.Domain.csproj
+		SccProjectName1 = Alfa.Domain
+		SccLocalPath1 = Alfa.Domain
+		SccProjectUniqueName2 = Alfa.App\\Alfa.App.csproj
+		SccProjectName2 = Alfa.App
+		SccLocalPath2 = Alfa.App
+		SccProjectUniqueName3 = Alfa.Infra\\Alfa.Infra.csproj
+		SccProjectName3 = Alfa.Infra
+		SccLocalPath3 = Alfa.Infra
+		SccProjectUniqueName4 = Alfa.Banco\\Alfa.Banco.sqlproj
+		SccProjectTopLevelParentUniqueName4 = Alfa.sln
+		SccProjectName4 = Alfa.Banco
+		SccLocalPath4 = Alfa.Banco
+		SccProjectUniqueName5 = Alfa.Web\\Alfa.Web.csproj
+		SccProjectName5 = Alfa.Web
+		SccLocalPath5 = Alfa.Web
+		SccProjectUniqueName6 = Alfa.Infra.IoC\\Alfa.Infra.IoC.csproj
+		SccProjectName6 = Alfa.Infra.IoC
+		SccLocalPath6 = Alfa.Infra.IoC
+		SccProjectUniqueName7 = Alfa.Data\\Alfa.Infra.Repository.csproj
+		SccProjectName7 = Alfa.Data
+		SccLocalPath7 = Alfa.Data
+	EndGlobalSection
+EndGlobal
