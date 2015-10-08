@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Web", "Alfa.Web\Alfa.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Infra.IoC", "Alfa.Infra.IoC\Alfa.Infra.IoC.csproj", "{31E1C736-AEF5-4914-BA98-7D266273FAB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Domain.Test", "Alfa.Domain.Test\Alfa.Domain.Test.csproj", "{9E5B7639-64B7-4C9F-942C-9702250283AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +68,10 @@ Global
 		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5B7639-64B7-4C9F-942C-9702250283AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5B7639-64B7-4C9F-942C-9702250283AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5B7639-64B7-4C9F-942C-9702250283AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5B7639-64B7-4C9F-942C-9702250283AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,33 +79,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7AB29212-4EB8-43BC-AD6A-9AEF38676EEC} = {20EB77FA-9601-4718-BE19-92338CB0C017}
 		{EDB509F4-78BE-4039-8D9B-DA082AC13051} = {EBF2AE74-6208-48E5-B1EA-1BDFE551C274}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 8
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://sdac.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Alfa.Domain\\Alfa.Domain.csproj
-		SccProjectName1 = Alfa.Domain
-		SccLocalPath1 = Alfa.Domain
-		SccProjectUniqueName2 = Alfa.App\\Alfa.App.csproj
-		SccProjectName2 = Alfa.App
-		SccLocalPath2 = Alfa.App
-		SccProjectUniqueName3 = Alfa.Infra\\Alfa.Infra.csproj
-		SccProjectName3 = Alfa.Infra
-		SccLocalPath3 = Alfa.Infra
-		SccProjectUniqueName4 = Alfa.Banco\\Alfa.Banco.sqlproj
-		SccProjectTopLevelParentUniqueName4 = Alfa.sln
-		SccProjectName4 = Alfa.Banco
-		SccLocalPath4 = Alfa.Banco
-		SccProjectUniqueName5 = Alfa.Web\\Alfa.Web.csproj
-		SccProjectName5 = Alfa.Web
-		SccLocalPath5 = Alfa.Web
-		SccProjectUniqueName6 = Alfa.Infra.IoC\\Alfa.Infra.IoC.csproj
-		SccProjectName6 = Alfa.Infra.IoC
-		SccLocalPath6 = Alfa.Infra.IoC
-		SccProjectUniqueName7 = Alfa.Data\\Alfa.Infra.Repository.csproj
-		SccProjectName7 = Alfa.Data
-		SccLocalPath7 = Alfa.Data
+		{9E5B7639-64B7-4C9F-942C-9702250283AF} = {5D186973-2064-42AE-ADC7-C35C9973AA75}
 	EndGlobalSection
 EndGlobal
