@@ -26,11 +26,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Infra", "Alfa.Infra\Al
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Alfa.Banco", "Alfa.Banco\Alfa.Banco.sqlproj", "{EDB509F4-78BE-4039-8D9B-DA082AC13051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Web", "Alfa.Web\Alfa.Web.csproj", "{1C2E9B59-9DCA-455F-9712-358161A0452B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Infra.IoC", "Alfa.Infra.IoC\Alfa.Infra.IoC.csproj", "{31E1C736-AEF5-4914-BA98-7D266273FAB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Domain.Test", "Alfa.Domain.Test\Alfa.Domain.Test.csproj", "{9E5B7639-64B7-4C9F-942C-9702250283AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Web", "Alfa.Web\Alfa.Web.csproj", "{A95F9090-6640-40E8-9E05-A1A71EDA4BA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,10 +60,6 @@ Global
 		{EDB509F4-78BE-4039-8D9B-DA082AC13051}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDB509F4-78BE-4039-8D9B-DA082AC13051}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EDB509F4-78BE-4039-8D9B-DA082AC13051}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{1C2E9B59-9DCA-455F-9712-358161A0452B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C2E9B59-9DCA-455F-9712-358161A0452B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C2E9B59-9DCA-455F-9712-358161A0452B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C2E9B59-9DCA-455F-9712-358161A0452B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31E1C736-AEF5-4914-BA98-7D266273FAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -72,6 +68,10 @@ Global
 		{9E5B7639-64B7-4C9F-942C-9702250283AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E5B7639-64B7-4C9F-942C-9702250283AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E5B7639-64B7-4C9F-942C-9702250283AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95F9090-6640-40E8-9E05-A1A71EDA4BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95F9090-6640-40E8-9E05-A1A71EDA4BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95F9090-6640-40E8-9E05-A1A71EDA4BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95F9090-6640-40E8-9E05-A1A71EDA4BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

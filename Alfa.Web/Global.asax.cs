@@ -1,5 +1,4 @@
-﻿using Alfa.Infra.IoC;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,9 +16,6 @@ namespace Alfa.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            IoC.Init();
-            DependencyResolver.SetResolver(new IoCDependencyResolver());
         }
     }
 }
